@@ -1,5 +1,5 @@
 # queen_ai_md
-Unique Ai bot dev by the nemesis prime tech 
+𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 – 𝟒𝖊 𝕯𝖎𝖛𝖎𝖘𝖎𝖔𝖓 𝕬𝖐𝖆𝖙𝖘𝖚𝖐𝖎
 <img src="https://files.catbox.moe/m9y3km.jpg" width="160" style="border-radius:20px; box-shadow:0 0 40px #00ffea;" />
 <img src="https://files.catbox.moe/m9y3km.jpg" width="160" style="border-radius:20px; box-shadow:0 0 40px #00ffea;" />
 BOT CREE PAR 𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 – 𝟒𝖊 𝕯𝖎𝖛𝖎𝖘𝖎𝖔𝖓 𝕬𝖐𝖆𝖙𝖘𝖚𝖐𝖎
