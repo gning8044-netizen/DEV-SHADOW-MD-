@@ -1,9 +1,9 @@
 const settings = {
-  packname: '༺『Q』『U』『E』『E』『N』 ❀『A』『i』༻/n/n/n/n/n/n/n/n𝓑𝓵𝓪𝓬𝓴 𝓴𝓲𝓷𝓰 𝓵𝓮𝓸𝓷𝓲𝓭𝓪𝓼 (𝓣𝓱𝓮 𝓷𝓮𝓶𝓮𝓼𝓲𝓼 𝓹𝓻𝓲𝓶𝓮',
-  author: '𝓑𝓵𝓪𝓬𝓴 𝓴𝓲𝓷𝓰 𝓵𝓮𝓸𝓷𝓲𝓭𝓪𝓼 (𝓣𝓱𝓮 𝓷𝓮𝓶𝓮𝓼𝓲𝓼 𝓹𝓻𝓲𝓶𝓮',
-  botName: "༺『Q』『U』『E』『E』『N』 ❀『A』『i』༻",
-  botOwner: '𝓑𝓵𝓪𝓬𝓴 𝓴𝓲𝓷𝓰 𝓵𝓮𝓸𝓷𝓲𝓭𝓪𝓼 (𝓣𝓱𝓮 𝓷𝓮𝓶𝓮𝓼𝓲𝓼 𝓹𝓻𝓲𝓶𝓮)', // Your name
-  ownerNumber: '237659262653', //Set your number here without + symbol, just add country code & number without any space
+  packname: '𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 𝟒𝖊 𝕯𝖎𝖛𝖎𝖘𝖎𝖔𝖓 𝕬𝖐𝖆𝖙𝖘𝖚𝖐𝖎༻/n/n/n/n/n/n/n/n𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 (𝕾𝖍𝖆𝖉𝖔𝖜 𝕻𝖗𝖎𝖒𝖊',
+  author: '𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 (𝕾𝖍𝖆𝖉𝖔𝖜 𝕻𝖗𝖎𝖒𝖊',
+  botName: "༺𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 𝟒𝖊 𝕯𝖎𝖛𝖎𝖘𝖎𝖔𝖓 𝕬𝖐𝖆𝖙𝖘𝖚𝖐𝖎༻",
+  botOwner: '𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 (𝕾𝖍𝖆𝖉𝖔𝖜 𝕻𝖗𝖎𝖒𝖊)', // Your name
+  ownerNumber: '221766297256', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
   maxStoreMessages: 20, 
