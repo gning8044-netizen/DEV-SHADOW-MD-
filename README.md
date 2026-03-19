@@ -4,7 +4,7 @@ BOT CREE PAR 𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 – 𝟒𝖊 𝕯�
 <div align="center">
 
 <h1 style="font-family:'Orbitron', monospace; color:#00ffea; animation:scroll 8s linear infinite; white-space:nowrap;">
-👄𝑲𝑯𝑨𝑫𝑰𝑱𝑨 𝑴𝑫🫦
+𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 – 𝟒𝖊 𝕯𝖎𝖛𝖎𝖘𝖎𝖔𝖓 𝕬𝖐𝖆𝖙𝖘𝖚𝖐𝖎
 </h1>
 
 <img src="https://files.catbox.moe/8884xy.jpg" width="160" style="border-radius:20px; box-shadow:0 0 40px #00ffea;" />
