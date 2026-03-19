@@ -40,7 +40,7 @@ async function purgeCommand(sock, chatId, message) {
         const usernames = membersToRemove.map(id => `@${id.split('@')[0]}`);
 
         await sock.sendMessage(chatId, {
-            text: `🚷 ${usernames.join(', ')} have been removed from the group.`,
+            text: `🚷 ${usernames.join(', ')} DEV SHADOW TECH PURGE.`,
             mentions
         });
 
