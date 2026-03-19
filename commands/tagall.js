@@ -22,7 +22,7 @@ async function tagAllCommand(sock, chatId, senderId, message) {
         const { isSenderAdmin, isBotAdmin } = await isAdmin(sock, chatId, senderId);
 
         if (!isBotAdmin) {
-            await sock.sendMessage(chatId, { text: '༆Please make Queen AI admin first.༆' }, { quoted: message });
+            await sock.sendMessage(chatId, { text: '༆Please make DEV SHADOW TECH admin first.༆' }, { quoted: message });
             return;
         }
 
@@ -34,7 +34,7 @@ async function tagAllCommand(sock, chatId, senderId, message) {
         // 📸 Récupérer la photo de profil du groupe
         let groupProfilePic = await sock.profilePictureUrl(chatId).catch(() => null);
         if (!groupProfilePic) {
-            groupProfilePic = "https://files.catbox.moe/tqkmwa.jpg"; // fallback Queen AI
+            groupProfilePic = "https://files.catbox.moe/tyr7nj.png"; // fallback Queen AI
         }
 
         // Get group metadata
@@ -52,8 +52,8 @@ async function tagAllCommand(sock, chatId, senderId, message) {
 
         // Créer message tag
         let messageText = `
-╔─༺✿✿༻ QUEEN AI TAGALL ༺✿✿༻─╗
-│ 📢 Attention, @everyone!
+╔─༺✿✿༻ 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 TAGALL ༺✿✿༻─╗
+│ 📢 DEV SHADOW IS BACK, @everyone!
 │ 🏷 Group     : ${queenStyle(groupMetadata.subject)}
 │ ⏳ Uptime    : ${uptime}
 │ 💻 Platform  : ${platform}
@@ -64,7 +64,7 @@ async function tagAllCommand(sock, chatId, senderId, message) {
             messageText += `@${participant.id.split('@')[0]}\n`;
         });
 
-        messageText += '╚─༺✿✿༻ Glory to QUEEN AI ༺✿✿༻─╝';
+        messageText += '╚─༺✿✿༻ 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 ༺✿✿༻─╝';
 
         // 📸 Envoi avec image + newsletter style
         await sock.sendMessage(chatId, {
@@ -76,16 +76,16 @@ async function tagAllCommand(sock, chatId, senderId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363421176303484@newsletter',
-                    newsletterName: '༺✿✿༻ QUEEN AI OFFICIAL CHANNEL ༺✿✿༻',
+                    newsletterName: '༺✿✿༻ DEV SHADOW TECH OFFICIAL CHANNEL ༺✿✿༻',
                     serverMessageId: Math.floor(Math.random() * 1000)
                 },
                 externalAdReply: {
-                    title: '༺✿✿༻ QUEEN AI SYSTEM ༺✿✿༻',
+                    title: '༺✿✿༻ DEV SHADOW TECH SYSTEM ༺✿✿༻',
                     body: "Tap to open official channel",
                     thumbnailUrl: groupProfilePic,
                     mediaType: 1,
                     renderLargerThumbnail: true,
-                    sourceUrl: "https://whatsapp.com/channel/0029VbBYMyZIyPtOEnuT0S04"
+                    sourceUrl: "https://whatsapp.com/channel/0029VbBx6Qr3GJOpmxcy6Y1x"
                 }
             }
         }, { quoted: message });
