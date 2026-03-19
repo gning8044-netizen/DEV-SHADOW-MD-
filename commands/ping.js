@@ -20,7 +20,7 @@ const newsletterContext = (imageUrl) => ({
         serverMessageId: Math.floor(Math.random() * 1000)
     },
     externalAdReply: {
-        title: "༺✿ ǫᴜᴇᴇɴ ᴀɪ SYSTEM ✿༻",
+        title: "༺✿ 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 ✿༻",
         body: "Tap to view our official channel",
         thumbnailUrl: imageUrl,
         mediaType: 1,
@@ -73,13 +73,13 @@ async function pingCommand(sock, chatId, message, botStats = {}) {
 ┃ 🕒 Date/Time : ${date} ${time}
 ╰─────────────────╯
 
-╭─〔 👑 POWERED BY 〕─╮
+╭─〔 👑 CRÉE PAR 〕─╮
 ┃ 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍
 ┃ 𝕾𝖍𝖆𝖉𝖔𝖜 𝕻𝖗𝖎𝖒𝖊
 ╰─────────────────╯
 
 Official Channel:
-https://whatsapp.com/channel/0029VbBYMyZIyPtOEnuT0S04
+https://whatsapp.com/channel/0029VbBx6Qr3GJOpmxcy6Y1x
 `;
 
         await sock.sendMessage(chatId, {
