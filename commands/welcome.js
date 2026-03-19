@@ -45,7 +45,7 @@ function generateWelcomeMenu(displayName, groupName, groupSize, groupDesc) {
   const dateStr = now.toLocaleString('en-US', { dateStyle: 'short', timeStyle: 'short' });
 
   return `
-╔═〔 ❀ 𝑸𝑼𝑬𝑬𝑵 𝑨𝑰 WELCOME ✿ 〕═╗
+╔═〔 ❀ 𝕾𝖍𝖆𝖉𝖔𝖜 𝕻𝖗𝖎𝖒𝖊 WELCOME ✿ 〕═╗
 ┃       𝑽𝒆𝒓𝒔𝒊𝒐𝒏 • 2.0.0 ⚙️
 ╚═━━───────────━━━═╝
 
@@ -57,8 +57,8 @@ function generateWelcomeMenu(displayName, groupName, groupSize, groupDesc) {
 ╰━━━━━━━━━━━━━━━━━━━╯
 
 ╭━〔 👑 POWERED BY 〕━╮
-┃  🜲 BLACK KING NEMESIS
-┃  ⚜ The Nemesis Prime
+┃  🜲 𝕾𝖍𝖆𝖉𝖔𝖜 𝕻𝖗𝖎𝖒𝖊
+┃  ⚜ 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍
 ╰━━━━━━━━━━━━━━━━━━╯
 `;
 }
