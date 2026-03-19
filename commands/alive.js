@@ -4,9 +4,9 @@ const axios = require("axios");
 
 /* 🎨 Images aléatoires pour le alive */
 const aliveImages = [
-    "https://image2url.com/r2/default/images/1769777596247-37b7ec61-10cf-417c-b0ce-fc336b0457b3.jpg",
-    "https://image2url.com/r2/default/images/1769777677016-e8b648fd-e745-4dc4-9643-8d0c2f03af9a.jpg",
-    "https://image2url.com/r2/default/images/1769777722897-5b3cf8c2-120f-4466-a90e-b0a6dc0a3c61.jpg"
+    "https://n.uguu.se/FapbFdJY.jpg",
+    "https://h.uguu.se/gUTkAVxa.jpg",
+    "https://n.uguu.se/PjJncGTk.jpg"
 ];
 
 /* 🌟 Helper pour image random */
@@ -18,16 +18,16 @@ const newsletterContext = (imageUrl) => ({
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
         newsletterJid: '120363421176303484@newsletter',
-        newsletterName: '༺『Q』『U』『E』『E』『N』 ❀『A』『i』༻',
+        newsletterName: '༺『𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍』༻',
         serverMessageId: Math.floor(Math.random() * 1000)
     },
     externalAdReply: {
-        title: "༺✿ ǫᴜᴇᴇɴ ᴀɪ SYSTEM ✿༻",
+        title: "༺✿ 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 SYSTEM ✿༻",
         body: "Tap to view our official channel",
         thumbnailUrl: imageUrl,
         mediaType: 1,
         renderLargerThumbnail: true,
-        sourceUrl: "https://whatsapp.com/channel/0029VbBYMyZIyPtOEnuT0S04"
+        sourceUrl: "https://whatsapp.com/channel/0029VbBx6Qr3GJOpmxcy6Y1x"
     }
 });
 
@@ -40,13 +40,13 @@ async function aliveCommand(sock, chatId, message, botStats = {}) {
     const uptime      = botStats.uptime     || "N/A";
 
     const aliveMessage = `
-╔═━━━『 👑 ǫᴜᴇᴇɴ ᴀɪ SYSTEM 』━━━═╗
+╔═━━━『 👑 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍 SYSTEM 』━━━═╗
 ┃          Version • ${settings.version} ⚙️
 ╚═━━──────────────────━━═╝
 
 ╭━━〔 ⚡ STATUS 〕━━╮
-┃ 🟢 Online
-┃ 🌍 Mode   : Public
+┃ ✅ Online
+┃ 🌍 Mode   : private
 ┃ 🛡 Features:
 ┃   • 🏰 Group Management
 ┃   • ⚔️ Antilink Protection
@@ -61,13 +61,13 @@ async function aliveCommand(sock, chatId, message, botStats = {}) {
 ┃ 🖥 Platform  : ${os.platform()} ${os.arch()}
 ╰━━━━━━━━━━━━━━╯
 
-╭━━〔 🏰 POWERED BY 〕━━╮
-┃ 👑 BLACK KING NEMESIS
-┃ ⚜ Elite Bot Architecture
+╭━━〔 🏰 CREÉ PAR 〕━━╮
+┃ 👑 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍
+┃ ⚜ Createur de bot au senegal 221🇸🇳
 ╰━━━━━━━━━━━━━━╯
 
 🌐 Official Channel:
-https://whatsapp.com/channel/0029VbBYMyZIyPtOEnuT0S04
+https://whatsapp.com/channel/0029VbBx6Qr3GJOpmxcy6Y1x
 `;
 
     try {
