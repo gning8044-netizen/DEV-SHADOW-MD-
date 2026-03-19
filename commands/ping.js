@@ -3,8 +3,8 @@ const settings = require('../settings.js');
 
 /* 🎨 Deux images aléatoires pour le ping */
 const pingImages = [
-    "https://images.iimg.live/images/fantastic-capture-1426.webp",
-    "https://images.iimg.live/images/amazing-snap-7301.webp"
+    "https://files.catbox.moe/mqoz03.jpg",
+    "https://files.catbox.moe/ye1edv.jpg"
 ];
 
 /* 🌟 Helper pour image random */
@@ -16,7 +16,7 @@ const newsletterContext = (imageUrl) => ({
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
         newsletterJid: '120363421176303484@newsletter',
-        newsletterName: '༺『Q』『U』『E』『E』『N』 ❀『A』『i』༻',
+        newsletterName: '༺𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 – 𝟒𝖊 𝕯𝖎𝖛𝖎𝖘𝖎𝖔𝖓 𝕬𝖐𝖆𝖙𝖘𝖚𝖐𝖎༻',
         serverMessageId: Math.floor(Math.random() * 1000)
     },
     externalAdReply: {
@@ -25,7 +25,7 @@ const newsletterContext = (imageUrl) => ({
         thumbnailUrl: imageUrl,
         mediaType: 1,
         renderLargerThumbnail: true,
-        sourceUrl: "https://whatsapp.com/channel/0029VbBYMyZIyPtOEnuT0S04"
+        sourceUrl: "https://whatsapp.com/channel/0029VbBx6Qr3GJOpmxcy6Y1x"
     }
 });
 
@@ -59,7 +59,8 @@ async function pingCommand(sock, chatId, message, botStats = {}) {
         const randomImage = getRandomImage();
 
         const botInfo = `
-╔═『 👑 ǫᴜᴇᴇɴ ᴀɪ 』═╗
+╔═『 👑 𝕮𝖍𝖊𝖋 𝕾𝖚𝖕𝖗𝖊̂𝖒𝖊 – 𝟒𝖊 𝕯𝖎𝖛𝖎𝖘𝖎𝖔𝖓 𝕬𝖐𝖆𝖙𝖘𝖚𝖐𝖎
+ 』═╗
 ┃ 🏓 Ping      : ${ping} ms
 ┃ ⏱ Uptime    : ${uptimeFormatted}
 ┃ ⚙ Version   : v${settings.version}
@@ -73,8 +74,8 @@ async function pingCommand(sock, chatId, message, botStats = {}) {
 ╰─────────────────╯
 
 ╭─〔 👑 POWERED BY 〕─╮
-┃ BLACK KING NEMESIS
-┃ Elite Bot Architecture
+┃ 𝕯𝖊𝖛 𝕾𝖍𝖆𝖉𝖔𝖜 𝕿𝖊𝖈𝖍
+┃ 𝕾𝖍𝖆𝖉𝖔𝖜 𝕻𝖗𝖎𝖒𝖊
 ╰─────────────────╯
 
 Official Channel:
